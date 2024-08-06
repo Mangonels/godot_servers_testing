@@ -1,0 +1,19 @@
+[gd_scene load_steps=3 format=3 uid="uid://c5n0v4hje25nw"]
+
+[ext_resource type="Script" path="res://scripts/body_constructor.gd" id="1_3w6t8"]
+
+[sub_resource type="Environment" id="Environment_kqwe2"]
+background_mode = 1
+background_color = Color(1, 1, 1, 1)
+sdfgi_enabled = true
+
+[node name="BodyConstructor" type="Node3D"]
+script = ExtResource("1_3w6t8")
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="."]
+environment = SubResource("Environment_kqwe2")
+
+[node name="Camera3D" type="Camera3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 8.20754)
