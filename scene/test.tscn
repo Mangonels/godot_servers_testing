@@ -4,7 +4,6 @@
 
 [sub_resource type="Environment" id="Environment_kqwe2"]
 background_mode = 1
-background_color = Color(1, 1, 1, 1)
 sdfgi_enabled = true
 
 [node name="BodyConstructor" type="Node3D"]
@@ -16,4 +15,4 @@ script = ExtResource("1_3w6t8")
 environment = SubResource("Environment_kqwe2")
 
 [node name="Camera3D" type="Camera3D" parent="."]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 8.20754)
+transform = Transform3D(1, 0, 0, 0, 0.960294, 0.278991, 0, -0.278991, 0.960294, 0, 1.5032, 2.10683)
